@@ -1,0 +1,34 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*secret*
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Model weights: download or provide separately
+*.onnx
+*.pth
+*.pt
+*.ckpt
+
+# Camera captures, inference results, and logs
+outputs/
+outputs_rulebase/
+resolution_samples/
+*.mp4
+*.avi
+*.log
+*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
